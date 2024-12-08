@@ -67,7 +67,7 @@ function submitOrder(event) {
     const message = `New Order!\n\nCustomer: ${name}\nRoom: ${room}\nPhone: ${phone}\nPayment: ${paymentMethod}\n\nOrder Details:\n${orderDetails}\n\nTotal: ₹${total}`;
     
     const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/919876543210?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/+918272027476?text=${encodedMessage}`;
     
     window.open(whatsappUrl, '_blank');
     
